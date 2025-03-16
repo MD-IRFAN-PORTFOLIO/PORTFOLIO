@@ -1,0 +1,177 @@
+<!DOCTYPE html>  <html>  
+  <head>  
+    <title>Hello, HIRE'S!</title>  
+    <link rel="stylesheet" href="styles.css" />  
+  </head>  
+  <body>  
+      <h1 class="title">Hello HIRE'S! </h1>  
+      <p id="currentTime"></p>  
+      <script src="script.js"></script>  
+  </body>  
+</html>  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Mohammed Irfan - Portfolio</title>  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">  
+    <style>  
+        /* Typing Animation */  
+        .typing-text {  
+            font-size: 42px;  
+            font-weight: bold;  
+            text-transform: uppercase;  
+            letter-spacing: 3px;  
+            color: #00e5ff;  
+            border-right: 4px solid #fff;  
+            white-space: nowrap;  
+            overflow: hidden;  
+            width: 0;  
+            animation: typing 3s steps(20, end) forwards, blink 0.8s infinite;  
+        }  /* Cool Animated Gradient Background */  
+    body {  
+        font-family: 'Poppins', sans-serif;  
+        margin: 0;  
+        padding: 0;  
+        text-align: center;  
+        color: white;  
+        background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);  
+        background-size: 400% 400%;  
+        animation: gradientBG 6s ease infinite;  
+    }  
+    @keyframes gradientBG {  
+        0% { background-position: 0% 50%; }  
+        50% { background-position: 100% 50%; }  
+        100% { background-position: 0% 50%; }  
+    }  
+
+    /* Header */  
+    header {  
+        background: rgba(0, 0, 0, 0.8);  
+        padding: 20px;  
+        border-bottom: 3px solid #00e5ff;  
+        box-shadow: 0px 4px 10px rgba(0, 229, 255, 0.8);  
+    }  
+
+    h1 {   
+        font-size: 36px;   
+        text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.7);   
+    }  
+
+    /* Updated Section Box */  
+    section {  
+        max-width: 600px;  
+        margin: 40px auto;  
+        padding: 20px;  
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));  
+        border-radius: 15px;  
+        box-shadow: 0 10px 30px rgba(0, 229, 255, 0.4);  
+        backdrop-filter: blur(10px);  
+        border: 1px solid rgba(255, 255, 255, 0.2);  
+    }  
+
+    h2 {   
+        color: #00e5ff;   
+        text-transform: uppercase;   
+    }  
+
+    /* Alternate Section Colors */  
+    section:nth-child(odd) {  
+        background: rgba(255, 255, 255, 0.15);  
+    }  
+    section:nth-child(even) {  
+        background: rgba(0, 0, 0, 0.2);  
+    }  
+
+    /* Button Styles */  
+    .btn {  
+        display: inline-block;  
+        padding: 12px 24px;  
+        margin: 10px;  
+        font-size: 16px;  
+        text-decoration: none;  
+        border-radius: 8px;  
+        transition: all 0.3s ease-in-out;  
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);  
+    }  
+
+    .btn-linkedin {  
+        background: #0073b1;  
+        color: white;  
+        box-shadow: 0px 0px 10px #0073b1;  
+    }  
+    .btn-linkedin:hover {  
+        background: #005a8e;  
+        transform: scale(1.1);  
+    }  
+
+    .btn-github {  
+        background: #333;  
+        color: white;  
+        box-shadow: 0px 0px 10px #555;  
+    }  
+    .btn-github:hover {  
+        background: #222;  
+        transform: scale(1.1);  
+    }  
+
+    .btn-contact {  
+        background: #28a745;  
+        color: white;  
+        box-shadow: 0px 0px 10px #28a745;  
+    }  
+    .btn-contact:hover {  
+        background: #1e7e34;  
+        transform: scale(1.1);  
+    }  
+
+    /* Progress Bar Colors */  
+    .progress-bar:nth-child(1) { background: #4285F4; } /* Blue */  
+    .progress-bar:nth-child(2) { background: #FFA500; } /* Orange */  
+    .progress-bar:nth-child(3) { background: #FFD700; } /* Yellow */  
+
+    /* Responsive Design */  
+    @media (max-width: 600px) {  
+        section {  
+            width: 90%;  
+        }  
+        h1 {  
+            font-size: 28px;  
+        }  
+    }  
+</style>
+
+</head>  
+<body>  
+    <header>  
+        <h1><strong>Mohammed Irfan</strong></h1>  
+        <p>Software Engineer | Aspiring Entrepreneur | student</p>  
+    </header>  <section>  
+    <h2>About Me</h2>  
+    <p>Hello! I am <strong>Mohammed Irfan</strong>, a <strong>computer science engineering</strong> student passionate about <strong>software development</strong> and <strong>entrepreneurship</strong>. I love creating <strong>innovative solutions</strong> and learning new technologies<strong>  something new with a Good mind set </strong>and <strong>Good knowledge</strong>.</p>  
+</section>  
+
+<section>  
+    <h2>Skills</h2>  
+    <p>PYTHON, HTML & CSS, JAVASCRIPT</p>  
+</section>  
+
+<section>  
+    <h2>Projects</h2>  
+    <p>Portfolio Website, To-Do App We are progressing on our journey of learning</p>  
+</section>  
+
+<section>  
+    <div class="button-container">  
+        <a href="https://linkedin.com/in/Mohammed Irfan" class="btn btn-linkedin" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>  
+        <a href="https://github.com/MD-IRFAN-PORTFOLIO" class="btn btn-github" target="_blank"><i class="fab fa-github"></i> GitHub</a>  
+        <a href="mailto:mohammed.irfan.0229@gmail.com" class="btn btn-contact"><i class="fas fa-envelope"></i> Contact Me</a>  
+    </div>  
+</section>
+
+<footer> <p><strong>© 2025 MOHAMMED IRFAN.ALL RIGHT RESERVED.</strong></p>  
+</footer>  
+</body>  
+</html>
